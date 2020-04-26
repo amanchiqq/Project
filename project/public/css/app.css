@@ -1,0 +1,256 @@
+<style>
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+    background-color: #000000;
+}
+
+div#headerline {
+    max-width: 960px;
+}
+
+#headerline {
+    position: absolute;
+    height: 100px;
+    margin: 0;
+    left:  250px;
+    top:  100px;
+    width: 960px;
+    background-color: #111;
+    margin-bottom: -2px;
+
+}
+
+#container {
+    position: relative;
+    margin-top: 1px !important;
+    left:  250px;
+    top: 210px;
+    width: 960px;
+    background-color: #111;
+
+}
+
+img {
+     border: none;
+}
+
+
+.logo{
+    position: absolute;
+    width: 268px;
+    height: 59px;
+    left: 50px;
+    top: 8px;
+}
+.ttpi {
+    position: absolute;
+    top: 58px;
+    padding: 2px 3px;
+    color: #aaa;
+}
+.ttpo {
+    position: absolute;
+    top: 59px;
+    opacity: 0.4;
+}
+#header {
+    position: relative;
+    height: 400px;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+#topls {
+    position: absolute;
+    top: 5px;
+    margin-left: 4px;
+    background-color: #111;
+    z-index: 99;
+}
+.toplink {
+    background-color: #222;
+    display: block;
+    width: 132px;
+    height: 202px;
+    float: left;
+    margin: 2px;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 5px;
+    position: relative;
+    z-index: 999;
+    color: #aaa;
+}
+a {
+    color: #dadada;
+    text-decoration: none;
+}
+#catline {
+    position: absolute;
+    top: 218px;
+    margin-left: 7px;
+    width: 960px;
+}
+#catline ul {
+    position: absolute;
+    left: -5px;
+    top: -15px;
+    width: 960px;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#catline ul li {
+    float: left;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#catline ul li a {
+    display: inline-block;
+    width: 132px;
+    height: 30px;
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: #181818;
+    color: #999;
+    text-align: center;
+    padding-top: 1px;
+}
+a, a:hover, a:active, a:focus {
+    outline: none !important;
+}
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#main {
+    position: relative;
+    width: 650px;
+    margin-top: -10px;
+    margin-left: 4px;
+    float: left;
+}
+.mainlink {
+    position: relative;
+    background-color: #222;
+    display: block;
+    width: 210px;
+    height: 350px;
+    float: left;
+    margin: 2px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+    border: 1px solid #222;
+    color: #bbb;
+}
+.mainlink span {
+    display: block;
+    position: relative;
+    top: 3px;
+    padding: 0 3px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 1.1;
+}
+div{
+    display: block;
+}
+.mqn {
+    position: absolute;
+    bottom: 2px;
+    left: 160px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    color: #bf090e;
+    width: 45px;
+    text-align: center;
+}
+
+#infoline {
+    position: absolute;
+    display: block;
+    top: 337px;
+    width: 640px;
+    height: 25px;
+    background-color: #181818;
+    margin-left: 6px;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-size: 11px;
+    border-left: 1px solid #181818;
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+    z-index: 999;
+}
+#side {
+    position: relative;
+    float: right;
+    margin-top: -10px;
+    right: 6px;
+    margin-bottom: 15px;
+    padding-top: 3px;
+    background-color: #181818;
+    width: 298px;
+    height: 1531px;
+}
+
+.sbin {
+    background-color: #222;
+    width: 275px;
+    position: relative;
+    left: 8px;
+    margin-top: 5px;
+    padding: 10px 0px 0px 7px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+a.chie {
+    display: block;
+    font-size: 15px;
+    color: #aaa;
+    margin: 2px 0 13px 7px;
+    text-decoration: none;
+}
+.mna {
+    margin-left: 1px;
+}
+a.sblink {
+    color: #aaa;
+    text-decoration: none;
+    line-height: 1.1;
+}
+.sblink {
+    background-color: #292929;
+    display: block;
+    width: 121px;
+    height: 194px;
+    float: left;
+    margin: 3px;
+    text-align: center;
+    font-size: 11px;
+    padding: 7px 3px 2px 3px;
+    position: relative;
+    overflow: hidden;
+}
